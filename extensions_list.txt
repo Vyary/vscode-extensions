@@ -1,0 +1,8 @@
+ms-python.python
+streetsidesoftware.code-spell-checker
+ms-python.flake8
+mechatroner.rainbow-csv
+TabNine.tabnine-vscode
+formulahendry.code-runner
+eamodio.gitlens
+ms-python.isort

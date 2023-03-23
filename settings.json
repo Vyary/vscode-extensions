@@ -1,0 +1,50 @@
+{
+    // Lancing settings and hinting settings
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.typeCheckingMode": "strict",
+
+    // Enable linting and flake8
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88",
+        "--ignore=E203,W503",
+    ],
+    
+    // Change formatting provider to black
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "C:\\Users\\Vyary\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\black.exe",
+
+    // Tabnine
+    "tabnine.experimentalAutoImports": false,
+
+    // Editor settings
+    "editor.rulers": [88],
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDragAndDrop": false,
+
+    // Git
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+
+    // Spelling
+    "cSpell.userWords": [
+        "appendleft",
+        "popleft"
+    ],
+    // Code runner
+    "code-runner.clearPreviousOutput": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    }
+
+    // New settings
+}
